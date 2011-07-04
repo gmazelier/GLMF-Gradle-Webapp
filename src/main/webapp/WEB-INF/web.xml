@@ -4,4 +4,15 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+        <servlet>
+                <description>Hello Gradle!</description>
+                <servlet-name>HelloGradle</servlet-name>
+                <servlet-class>glmf.gradle.HelloGradle</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>HelloGradle</servlet-name>
+                <url-pattern>/HelloGradle</url-pattern>
+        </servlet-mapping>
+
 </web-app>
