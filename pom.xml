@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>glmf.gradle</groupId>
-  <artifactId>sample-webapp</artifactId>
+  <artifactId>GLMF-Gradle-Webapp</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Maven Webapp</name>
+  <name>GLMF Sample Project</name>
   <url>https://github.com/gmazelier/GLMF-Gradle-Webapp</url>
 
   <repositories>
@@ -52,7 +52,7 @@
         <version>${jetty.version}</version>
       </plugin>
     </plugins>
-    <finalName>sample-webapp</finalName>
+    <finalName>${artifactId}-${version}</finalName>
   </build>
 
   <properties>
